@@ -1,0 +1,56 @@
+{
+  "name": "video-skill-hub",
+  "owner": {
+    "name": "ndze5588-afk"
+  },
+  "metadata": {
+    "description": "按制作流程整理的 AI 视频 Agent Skills"
+  },
+  "plugins": [
+    {
+      "name": "remotion",
+      "source": {
+        "source": "github",
+        "repo": "remotion-dev/claude-code-plugin"
+      },
+      "description": "Remotion 官方出品，教 agent 用 React 写视频：时间轴、动画、音频、字幕、渲染都有专门的 skill，减少时序和素材引用上的常见错误。",
+      "category": "compose"
+    },
+    {
+      "name": "hyperframes",
+      "source": {
+        "source": "github",
+        "repo": "heygen-com/hyperframes"
+      },
+      "description": "HeyGen 开源的「写 HTML 出视频」框架，附带一组 skill：合成画面、GSAP 动画、字幕、配音、网页转视频，以及把 Remotion 项目迁移过来。",
+      "category": "compose"
+    },
+    {
+      "name": "heygen",
+      "source": {
+        "source": "github",
+        "repo": "heygen-com/skills"
+      },
+      "description": "用一张照片建数字分身，生成真人出镜的口播视频；也能把已有视频翻译成 175+ 种语言，保留原声并对口型。",
+      "category": "generate"
+    },
+    {
+      "name": "higgsfield",
+      "source": {
+        "source": "github",
+        "repo": "higgsfield-ai/skills"
+      },
+      "description": "调用 Higgsfield 生成图片、视频、3D 和音频，另有现成的场景 skill：无露脸短视频、讲解视频、YouTube 封面、产品图、品牌套件。",
+      "category": "generate"
+    },
+    {
+      "name": "ffmpeg-skill",
+      "source": {
+        "source": "github",
+        "repo": "kajisho5/ffmpeg-skill"
+      },
+      "description": "本地 FFmpeg 剪辑工具箱，42 个工具：剪切、字幕、画幅重构、响度标准化、按平台导出。先探测再动手、做完再校验，不上云、不要 key。",
+      "category": "edit"
+    }
+  ]
+}
