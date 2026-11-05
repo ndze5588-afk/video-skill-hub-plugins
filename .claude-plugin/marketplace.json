@@ -51,6 +51,15 @@
       },
       "description": "本地 FFmpeg 剪辑工具箱，42 个工具：剪切、字幕、画幅重构、响度标准化、按平台导出。先探测再动手、做完再校验，不上云、不要 key。",
       "category": "edit"
+    },
+    {
+      "name": "manim-skill",
+      "source": {
+        "source": "github",
+        "repo": "Yusuke710/manim-skill"
+      },
+      "description": "做 3Blue1Brown 风格的数学和知识讲解动画：写旁白，本地生成配音，写 Manim 代码，渲染，再逐轮改进。配音用本地 Kokoro 模型，不需要 key。",
+      "category": "compose"
     }
   ]
 }
