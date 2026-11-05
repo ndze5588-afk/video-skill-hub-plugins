@@ -1,6 +1,6 @@
 # Skill 剪辑台 · 插件市场
 
-[Skill 剪辑台](https://claude.ai/artifact/CfNyZ33MiZLQaXryzgZYZ1) 的 Claude Code 插件市场：按制作流程整理的 AI 视频 skill 中，已打包成插件的那些。
+[Skill 剪辑台](https://video-skill-hub.pages.dev) 的 Claude Code 插件市场：按制作流程整理的 AI 视频 skill 中，已打包成插件的那些。
 
 ```
 /plugin marketplace add ndze5588-afk/video-skill-hub-plugins
@@ -19,6 +19,6 @@
 | `higgsfield` | [higgsfield-ai/skills](https://github.com/higgsfield-ai/skills) | 调用 Higgsfield 生成图片、视频、3D 和音频，另有现成的场景 skill：无露脸短视频、讲解视频、YouTube 封面、产品图、品牌套件。 |
 | `ffmpeg-skill` | [kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) | 本地 FFmpeg 剪辑工具箱，42 个工具：剪切、字幕、画幅重构、响度标准化、按平台导出。先探测再动手、做完再校验，不上云、不要 key。 |
 
-全部 29 个视频 skill（含未打包成插件的）、依赖和 API key 说明见 https://claude.ai/artifact/CfNyZ33MiZLQaXryzgZYZ1 。
+全部 29 个视频 skill（含未打包成插件的）、依赖和 API key 说明见 https://video-skill-hub.pages.dev 。
 
 本仓库由 Skill 剪辑台自动生成。插件归各自作者所有，适用其仓库中的许可证；本仓库中的整理内容采用 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh-hans)，转载请注明出处。
